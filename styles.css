@@ -406,7 +406,8 @@ margin-bottom: 40px;
 
 #mockup{
   margin: 60px 40px;
-  padding-bottom: 300px ;    
+  padding-bottom: 300px ;
+  padding-top: 300px;
   color: black;
   display: flex;
   flex-direction: column;
