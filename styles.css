@@ -426,7 +426,7 @@ font-size: 17px;
   #webinar-topics h3{
     font-size: 20px;
     color: #194950;
-    margin-top: -50px;
+    margin-top: -100px;
     
 }
 
@@ -482,7 +482,7 @@ font-size: 17px;
     #cta-banner #cta-text a h2{
       color: white;
       font-size: 14px;
-      width:250px;
+      width:200px;
     }
   
     #cta-banner #cta-text a h2:hover{
@@ -506,6 +506,7 @@ font-size: 17px;
       margin: 20px;
       padding: 5px;
       font-family: 'Nunito Sans', sans-serif;
+      text-align: center;
     }
   
     #proof{
@@ -522,10 +523,12 @@ font-size: 17px;
     
     #julia-image{
       background-image: url(images/julia-roberts-2.jpg);
-      height: 100%;
-      width: 100%;
+      min-width: 300px;
+      min-height: 500px;
       background-size: contain;
-      margin: 40px 0px; 
+      background-repeat: no-repeat;
+      margin: 40px 0px 0px 0px;
+     padding-top: 40px;
     }
    
   
