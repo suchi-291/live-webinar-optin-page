@@ -411,6 +411,7 @@ margin-bottom: 40px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center; 
 }
 
 #mockup-image{
@@ -426,7 +427,7 @@ margin-bottom: 40px;
 #webinar-topics h3{
   font-size: 24px;
   color: #194950;
-  margin-top: -50px;
+  margin-top: -100px;
   
 }
 
@@ -441,8 +442,8 @@ margin-bottom: 40px;
 #webinar-topics ul li::before
 {
   content: "";
-  height: 40px;
-  width: 40px;
+  height: 0px;
+  width: 0px;
   display: block;
   float: left;
   margin-left: -1.5rem;
